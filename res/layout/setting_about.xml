@@ -9,7 +9,7 @@
             <ImageView android:layout_gravity="center_vertical" android:id="@id/upgradeicon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="12.0dip" />
             <TextView android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/upgradetxt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/fbcontent" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/fbcontent" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="20.0dip" android:visibility="invisible">
             <ImageView android:layout_gravity="center_vertical" android:id="@id/fbicon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="12.0dip" />
             <TextView android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/fbtxt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </LinearLayout>
