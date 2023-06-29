@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/animation" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bg_play_tips" android:singleLine="true" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/back_btn" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="6.0dip" />
+                <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bg_play_back" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/gobg_container" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                <ImageView android:id="@id/gobg_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="6.0dip" />
+                <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/gobg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bgp_goto_background" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

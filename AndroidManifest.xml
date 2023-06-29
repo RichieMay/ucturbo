@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.ucturbo" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-feature android:name="android.hardware.camera.any"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.ucturbo.BrowserApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:supportsRtl="false" android:usesCleartextTraffic="true">
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:finishOnTaskLaunch="true" android:label="ucturbo" android:launchMode="singleTask" android:name="com.quark.browser.wxapi.WXEntryActivity" android:noHistory="true" android:taskAffinity="wxapi.WXEntryActivity"/>
+        <meta-data android:name="android.max_aspect" android:value="2.5"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="1200699f230a872fc47edc86fe648595"/>
+        <provider android:authorities="com.ucturbo.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <service android:name="com.amap.api.location.APSService"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:launchMode="singleTask" android:name="com.ucturbo.MainActivityNew" android:theme="@style/MainActivityTheme">
+            <intent-filter android:label="@string/app_name_in_launcher">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="ut.25845239"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="about"/>
+                <data android:scheme="javascript"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="ucturbo"/>
+                <data android:host="uc.com"/>
+                <data android:path="/open"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="text/xml"/>
+                <data android:mimeType="application/xhtml+xml"/>
+                <data android:mimeType="application/vnd.wap.xhtml+xml"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH"/>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH"/>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="about"/>
+                <data android:scheme="javascript"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="player"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="ucweb"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/xml"/>
+                <data android:mimeType="application/xhtml+xml"/>
+                <data android:mimeType="application/vnd.wap.xhtml+xml"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="com.ucturbo.MainActivityNew.AppLink3" android:targetActivity="com.ucturbo.MainActivityNew">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="t.union.ucweb.com" android:scheme="http"/>
+                <data android:host="t.union.ucweb.com" android:scheme="https"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.ucturbo.MainActivityNew.AppLink2" android:targetActivity="com.ucturbo.MainActivityNew">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="ab.fit" android:scheme="http"/>
+                <data android:host="ab.fit" android:scheme="https"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:name="com.ucturbo.MainActivityNew.AppLink1" android:targetActivity="com.ucturbo.MainActivityNew">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="s.ucnews.in" android:scheme="http"/>
+                <data android:host="s.ucnews.in" android:scheme="https"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcherx" android:launchMode="singleTask" android:name="com.ucturbo.MainActivityX" android:targetActivity="com.ucturbo.MainActivityNew">
+            <intent-filter android:label="@string/app_name_in_launcher">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="ut.25845239"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="about"/>
+                <data android:scheme="javascript"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="text/xml"/>
+                <data android:mimeType="application/xhtml+xml"/>
+                <data android:mimeType="application/vnd.wap.xhtml+xml"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH"/>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH"/>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="about"/>
+                <data android:scheme="javascript"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="player"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ucturbo.feature.bookmarkhis.bookmark.thirdparty.AddFavoriteActivity" android:resizeableActivity="false" android:theme="@style/TransparentTheme">
+            <intent-filter android:icon="@mipmap/ic_launcher" android:label="@string/add_favorite">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="standard" android:name="com.ucturbo.feature.downloadpage.thirdinvoke.UCTurboDownloadForThirdParty" android:resizeableActivity="false" android:theme="@style/TransparentTheme">
+            <intent-filter android:icon="@mipmap/ic_launcher" android:label="@string/download_friend_invoke">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|uiMode" android:launchMode="singleTask" android:name="com.ucturbo.BrowserActivity" android:theme="@style/BrowserTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.ucturbo.feature.defaultbrowser.view.SetDefaultTipsActivity" android:theme="@style/MaskViewTransparentTheme"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.uc.devconfig.view.DevConfigActivity"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/proxy_activty_label" android:name="com.ucturbo.feature.webwindow.external.ProxyActivity" android:screenOrientation="user">
+            <intent-filter>
+                <action android:name="com.uc.browser.action.CALL_PROXY_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ucweb.login.qq.LoginQQHelper" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.ucweb.login.weibo.LoginWeiboHelper" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.yalantis.ucrop.UCropActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <service android:name="com.ucturbo.feature.video.MediaPlayerService" android:process=":MediaPlayerService"/>
+        <receiver android:name="com.ucturbo.services.networkstate.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ucturbo.services.download.broadcast.DownloadBroadcastReceiver"/>
+        <receiver android:exported="true" android:name="com.ucturbo.visible.PlayReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.ucturbo.feature.defaultbrowser.guide.DefaultBrowserClearGuideActivity" android:noHistory="true" android:taskAffinity="com.uc.defaultclearguide" android:theme="@style/DefaultBrowserClearGuideActivityTheme"/>
+        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="true" android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.ucturbo.feature.defaultbrowser.guide.SelectDialogGuideActivity" android:noHistory="true" android:taskAffinity="com.uc.defaultsetmaskguide" android:theme="@style/default_browser_guide_dialog"/>
+        <activity android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.ucturbo.feature.defaultbrowser.guide.DefaultListGuideActivity" android:noHistory="true" android:taskAffinity="com.uc.defaultsetmaskguide" android:theme="@style/default_browser_guide_dialog"/>
+        <service android:exported="false" android:name="com.alibaba.analytics.AnalyticsService" android:process=":channel"/>
+        <meta-data android:name="org.chromium.content.browser.SANDBOXED_PRIVILEGED_SERVICES_NAME" android:value="com.uc.sandboxExport.SandboxedPrivilegedProcessService"/>
+        <service android:isolatedProcess="false" android:name="com.uc.sandboxExport.SandboxedPrivilegedProcessService0" android:process=":sandboxed_privilege_process0"/>
+        <meta-data android:name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES" android:value="1"/>
+        <meta-data android:name="org.chromium.content.browser.SANDBOXED_SERVICES_NAME" android:value="com.uc.sandboxExport.SandboxedProcessService"/>
+        <service android:isolatedProcess="false" android:name="com.uc.sandboxExport.SandboxedProcessService0" android:process=":sandboxed_process0"/>
+        <service android:exported="false" android:name="com.ucturbo.business.stat.RemoteStatService" android:process=":RemoteStatService"/>
+        <receiver android:name="com.ucturbo.feature.video.player.PlayBackgroundNotificationManager$HeadSetReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.ucturbo.feature.upgrade.FlexibleInstallService"/>
+        <service android:name="com.ucturbo.feature.push.FcmMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.ucturbo.feature.push.PushReceiver">
+            <intent-filter>
+                <action android:name="com.ucturbo.PUSH_CLICK"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.ucturbo.feature.udrive.upload.UDriveUploadService" android:process=":UploadService">
+            <intent-filter>
+                <action android:name="com.uc.udrive.upload.ACTION"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.uc.browser.core.download.service.RemoteDownloadService" android:process=":downloader"/>
+        <service android:name="com.UCMobile.Apollo.download.DownloaderService" android:process=":downloader"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.uc.base.image.core.ImageModule" android:value="GlideModule"/>
+        <provider android:authorities="com.ucturbo.usharefileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.uc.base.share.basic.android.ShareFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/share_file_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.ucturbo.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.search.SearchActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme" android:windowSoftInputMode="adjustResize|stateUnchanged"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.SessionActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.filemanager.FileManagerActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.filemanager.folderchoice.FolderChoiceActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.SwofConnectActivity" android:theme="@style/Transparent"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.SwofConnectEntryActivity" android:theme="@style/Transparent"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.pc.HttpShareActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.permission.PermissionActivity" android:theme="@style/TotalTransparent"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.SwofActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.filemanager.FolderActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.ApShareActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.ShareActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:configChanges="screenLayout|screenSize" android:launchMode="singleInstance" android:name="com.swof.u4_ui.home.ui.FileDetailsActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:launchMode="singleInstance" android:name="com.swof.u4_ui.function.clean.view.activity.CleanMasterActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:launchMode="singleInstance" android:name="com.swof.u4_ui.function.clean.view.activity.JunkDetailActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:launchMode="singleInstance" android:name="com.swof.u4_ui.function.clean.view.activity.CleanResultActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:launchMode="singleInstance" android:name="com.swof.u4_ui.function.clean.view.activity.ExtSdcardPermissionGuideActivity" android:screenOrientation="portrait" android:theme="@style/SwofTheme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.swof.u4_ui.function.clean.view.activity.UsageStatGuideActivity" android:noHistory="true" android:theme="@style/DialogActivity"/>
+        <service android:name="com.swof.transport.ReceiveService"/>
+        <service android:name="com.swof.transport.TransferService"/>
+        <service android:exported="true" android:name="com.swof.junkclean.worker.DuplicateScanService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.ucturbo.swof_provider" android:exported="false" android:grantUriPermissions="true" android:name="com.swof.u4_ui.utils.utils.SwofProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.uc.launchboost.lib.LaunchBoostService" android:process=":launchboost"/>
+        <activity android:name="com.uc.datawings.debug.DebugBridgeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="dws.com_ucturbo"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:exported="false" android:name="com.uc.datawings.UploadEntrance" android:process="">
+            <intent-filter>
+                <action android:name="com.uc.datawings.intent.action.UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.uc.datawings.upload.UploadService" android:process=""/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:enabled="false" android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:process=":playcore_dialog_wrapper_activity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+    </application>
+</manifest>

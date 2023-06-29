@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html style="font-size: 500px;">
+<head>
+<meta http-equiv="content-type"  content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="wap-font-scale" content="no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>Quark browser privacy statement</title>
+<style type="text/css">
+html, body, span, div, p, a, table, tbody, td, h1, h2, h3, img, form, strong, b, i, dl, dt, dd, ol, ul, li, dl, dd, dt {padding:0; margin:0;list-style: none;}
+
+body {
+	line-height: .036rem;
+	font-family:'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',arial;
+	color:#222;
+	font-size: 14px;
+	background:#fff;
+}
+a, a:link {color:#222; text-decoration:none;}
+a:active, a:visited {color:#222;}
+
+.wrap{
+	margin: 0.01rem .018rem .02rem;
+}
+.wrap p{
+	margin-bottom: .032rem;
+	text-indent: 2em;
+	font-size: .024rem;
+}
+.wrap h2{
+	text-indent: 2em;
+	font-size: .024rem;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+<p>Guangzhou Dongjing computer technology co., LTD. (hereinafter referred to as "Dongjing") commitment to comply with the provisions of this privacy statement and applicable law, in order to protect the quark browser products collect your personal information. I suggest you read this privacy statement carefully.</p>
+
+<p>Quark is a tool for browsing the web browser, including web browsing, url and search association recommended, web cloud acceleration, site navigation, my site navigation icon acquisition, security services, the application update alert, bookmark synchronization, and other functions and services (hereinafter referred to as the services).</p>
+
+<p>The quark browser will collect and use your device and other relevant information as follows. This statement explains the information collection and usage in these situations. </p>
+
+<h2>1. Collect the contents and USES of the information</h2>
+<p>1) search association recommend</p>
+
+<h2>When you enter queries in the search bar, the quark browser will upload the text you type to the server of the action view. In this way, the "suggestion" feature automatically recommends words you might be looking for.</h2>
+<p>2) Web page acceleration</p>
+
+<h2>You can choose to use a quark browser "cloud acceleration" mode, this mode, the page you browse through stroboscopic server to transfer processing, we will you visit the original web page layout and compression, so as to adapt to the use of your mobile phone screen, at the same time save the Internet traffic.</h2>
+<p>3) Navigation site icon acquisition</p>
+
+<h2>If you visit a new site and this site entered my navigation, according to the quark browser will upload the site address to stroboscopic server, through the slave server scene, according to the corresponding site icon and get convenient after you identify this site better.</h2>
+<p>4) Security services</p>
+
+<h2>Quark browsers provide security services (including site security scan and download security scan), may need to obtain the necessary information and data (such as access to the site URL, download site URL) transmitted to a moving JingYun security data center, to remind you may access to the malicious URL and malicious software.</h2>
+
+<p>5) apply update reminders</p>
+
+<h2>You can browse, download, search, share the latest, secure software and games using the built-in application update reminder feature in the quark browser. In order to update your phone software and games, quark browser will after you take the initiative to use software application services, collection and the application has been installed in the cell phone package name, version number, and mobile phone international mobile equipment identity code IMEI, and drive on the server version of the scene. If there is a higher version of these applications in the server, the quark browser will prompt the user to upgrade the corresponding software. We do not store software information on the user's phone, or match it with any other personal information from the user.</h2>
+<p>6) bookmark synchronization</p>
+
+<h2>Provides a bookmark synchronization feature. Users can choose to back up their bookmarks on the data server in the dynamic view. Only if the user chooses to use this feature, the dynamic landscape will provide this service for you. In order to ensure the security of user data, the user data server will be closely guarded with the dynamic view.</h2>
+<p>7) user feedback</p>
+
+<h2>When you use a quark browser, you can choose to advise the quark browser. In your opinion, we will upload the mobile phone model, browser version number and operating system version number so that we can better locate the problems you have raised. The contact information you fill in the feedback will only be used for our customer service and your communication and feedback, which will not be disclosed to any third party.</h2>
+
+<h2>2. Other possible access server situations</h2>
+<p>Quark browser will regularly after you launch a browser and Internet servers communicate with stroboscopic, query whether to have the latest version can be upgraded, found the new prompts you to download and install the association, if you don't want to upgrade can choose to refuse, if you choose to upgrade you will be able to immediately after use of quark browser to the latest stable version.</p>
+
+<h2>3. Disclaimer</h2>
+<p>Dongjing will not be without a user authorized, open, edit, or disclose the user of the above information, unless there is a need in the following circumstances: stroboscopic not without a user authorized, open, edit, or disclose the user of the above information, unless there is a need in the following circumstances:</p>
+<p>(1) according to relevant laws and regulations of the state;</p>
+<p>(2) in case of emergency, to safeguard your rights and interests of the public;</p>
+<p>(3) other legal situations requiring disclosure, editing or disclosure of such information according to law.</p>
+
+<p>The following force majeure event will not take any responsibility, but the action will do our best to protect your rights and interests, and will timely inform you:</p>
+
+<p>(1) hacker attacks;</p>
+
+<p>(2) significant impact of telecom operators;</p>
+
+<p>(3) network and website closure due to government control;</p>
+
+<p>(4) virus invasion;</p>
+
+<p>(5) other events, such as natural disasters or war, that cannot be controlled, foreseen or even foreseen.</p>
+
+
+<h2>4. Amendments to the privacy policy</h2>
+<p>According to the development of the product, the privacy policy can be modified by the dynamic view. If there is a change in the personal information policy, we will post relevant information on the product or website prominently in order to notify the user in time. If you choose to continue using our service, you agree to accept these changes.</p>
+
+<h2>5. Contact us</h2>
+<p>If you have any questions, comments and Suggestions on improving our service, please feel free to ask. Service website:www.myquark.cn。</p>
+
+
+<p align="right">Guangzhou Dongjing computer science and technology co. LTD<br>October, 2017</p>
+</div>
+<script type="text/javascript">
+(function fitScreen(){
+	var lastWindowWidth = window.innerWidth,
+        converFactor =640 / 1000;
+
+    document.querySelector('html').style.fontSize = lastWindowWidth/ converFactor + 'px';
+})();	
+</script>
+</body>
+</html>

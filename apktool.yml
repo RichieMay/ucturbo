@@ -1,0 +1,79 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ucturbo.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/ar_uc.pak
+- assets/bn_uc.pak
+- assets/chrome_100_percent_uc.pak
+- assets/en-US_uc.pak
+- assets/es_uc.pak
+- assets/id_uc.pak
+- assets/pt-BR_uc.pak
+- assets/ru_uc.pak
+- assets/th_uc.pak
+- assets/vi_uc.pak
+- assets/webviewuc.pak
+- assets/zh-TW_uc.pak
+- png
+- assets/theme/default/config.cfg
+- jpg
+- assets/theme/night/config.cfg
+- assets/theme/transparent/config.cfg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  firebase-common.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-messaging.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  com/uc/base/jssdk/HandlerCenter.java: '8'
+  com/uc/base/jssdk/IJSApiAuth.java: '8'
+  com/uc/base/jssdk/IJSApiInvokeListener.java: '8'
+  com/uc/base/jssdk/IJsApiExecute.java: '8'
+  com/uc/base/jssdk/IJsApiInterface.java: '8'
+  com/uc/base/jssdk/IJsSDKCallback.java: '8'
+  com/uc/base/jssdk/InvokerCenter.java: '8'
+  com/uc/base/jssdk/JSApiArgsDef.java: '8'
+  com/uc/base/jssdk/JSApiCallbackContext.java: '8'
+  com/uc/base/jssdk/JSApiCustomBrowserClient.java: '8'
+  com/uc/base/jssdk/JSApiInjectBridge.java: '8'
+  com/uc/base/jssdk/JSApiManager.java: '8'
+  com/uc/base/jssdk/JSApiParams.java: '8'
+  com/uc/base/jssdk/JSApiResult.java: '8'
+  com/uc/base/jssdk/JSApiVo.java: '8'
+  com/uc/base/jssdk/JsApiJsInvoker.java: '8'
+  com/uc/base/jssdk/JsApiMangerRegister.java: '8'
+  com/uc/base/jssdk/JsSdkManager.java: '8'
+  com/uc/base/jssdk/ShellJsInterface.java: '8'
+  com/uc/base/jssdk/handler/IJsCommonHandler.java: '8'
+  com/uc/base/jssdk/handler/IJsCustomHandler.java: '8'
+  com/uc/base/jssdk/handler/IJsSdkHandler.java: '8'
+  com/uc/base/jssdk/handler/IShellJavaHandler.java: '8'
+  com/uc/base/jssdk/handler/JsCommonHandlerFactory.java: '8'
+  com/uc/base/jssdk/handler/JsCustomHandlerFactory.java: '8'
+  com/uc/base/jssdk/handler/JsSdkHandlerFactory.java: '8'
+  com/uc/base/jssdk/handler/ShellJavaHandlerFactory.java: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.1-10495c-SNAPSHOT
+versionInfo:
+  versionCode: '187'
+  versionName: 1.10.6.900

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/swof_category_title" />
+    <FrameLayout android:id="@id/list_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/music_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0px" android:overScrollMode="never"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <ListView android:id="@id/folder_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0px" android:overScrollMode="never"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </FrameLayout>
+</LinearLayout>

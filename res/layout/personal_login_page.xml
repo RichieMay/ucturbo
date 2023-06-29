@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="12.0dip">
+        <ImageView android:id="@id/personal_login_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="32.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip">
+            <TextView android:textSize="18.0dip" android:id="@id/personal_login_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/personal_login_page_title" />
+            <TextView android:textSize="12.0dip" android:id="@id/personal_login_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/personal_login_page_subtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/personal_login_phone_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip">
+        <com.ucweb.materialedittext.MaterialEditText android:textSize="14.0dip" android:id="@id/personal_login_phone_edit" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ucturbo.feature.collectpanel.view.TextViewWithCheckBox android:id="@id/personal_login_agreement_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:id="@id/personal_login_get_idcode_btn" android:paddingTop="12.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_sync_get_verif_code" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/personal_login_idcode_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ucweb.materialedittext.MaterialEditText android:textSize="14.0dip" android:id="@id/personal_login_idcode_edit" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+            <TextView android:textSize="16.0dip" android:layout_gravity="right" android:id="@id/personal_login_retrieve_idcode_btn" android:paddingTop="12.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_sync_again_verif_code" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="10.0dip" android:gravity="center" android:layout_gravity="right" android:id="@id/personal_login_send_tip" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginTop="8.0dip" android:text="已发送到18920787888" />
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+        <ImageView android:id="@id/personal_login_weibo" android:padding="10.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="20.0dip" />
+        <ImageView android:id="@id/personal_login_weixin" android:padding="10.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="20.0dip" />
+        <ImageView android:id="@id/personal_login_qq" android:padding="10.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/personal_login_agreement_text" android:layout_width="265.0dip" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+</LinearLayout>

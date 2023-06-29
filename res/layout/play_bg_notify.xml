@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/notification_common_size" android:layout_height="@dimen/notification_common_size" android:layout_marginLeft="@dimen/notification_common_margin_left" android:layout_marginRight="13.0dip" android:src="@drawable/bgp_icon" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="62.0dip" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/textfield" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0dip" android:textColor="#ff333333" android:id="@id/top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="UC Video Play" android:singleLine="true" />
+            <TextView android:textSize="10.0dip" android:textColor="#ff999999" android:id="@id/bot_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Some songs" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/mask" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/play_container" android:layout_width="72.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/btn_play" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="@dimen/notification_common_margin_left" android:src="@drawable/bgp_play" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

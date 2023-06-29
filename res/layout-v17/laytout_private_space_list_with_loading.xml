@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tv_last_visit_date">
+        <ImageView android:id="@id/iv_empty" android:layout_width="240.0dip" android:layout_height="140.0dip" />
+        <TextView android:textSize="12.0sp" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_private_space_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tv_last_visit_date" />
+    <com.ucturbo.ui.loadingdrawable.LoadingView android:id="@id/lv_private_space_list_loading" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/tv_last_visit_date" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="last visit date" android:layout_alignParentBottom="true" />
+    <com.ucturbo.feature.privatespace.base.PrivateSpaceBottomView android:orientation="horizontal" android:id="@id/ll_private_space_list_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/tv_bottom_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:textAllCaps="false" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/tv_bottom_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:textAllCaps="false" />
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/tv_bottom_3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:textAllCaps="false" />
+    </com.ucturbo.feature.privatespace.base.PrivateSpaceBottomView>
+    <ImageView android:id="@id/iv_add_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="50.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

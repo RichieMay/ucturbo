@@ -1,0 +1,29 @@
+[
+  {
+    "module": "drive-folder",
+    "version": "2.0.3",
+    "downloadUrl": "http://img.ucweb.com/s/uae/g/1s/offline/zips/drive-folder/drive-folder-2.0.3-200629145049.zip",
+    "md5": "3dbda0380530e8911811ade7b7e66487",
+    "isLocal": true,
+    "localSourceFile": "supercache/drive-folder-2.0.3-200629145049.zip",
+    "cacheType": "0"
+  },
+  {
+    "module": "drive-common",
+    "version": "1.1.1",
+    "downloadUrl": "http://img.ucweb.com/s/uae/g/1s/offline/zips/drive-common/drive-common-1.1.1-200528113002.zip",
+    "md5": "0e894b90ee53dc0a820824edd48cc39b",
+    "isLocal": true,
+    "localSourceFile": "supercache/drive-common-1.1.1-200528113002.zip",
+    "cacheType": "0"
+  },
+  {
+    "module": "drive-lib",
+    "version": "1.0.3",
+    "downloadUrl": "http://img.ucweb.com/s/uae/g/1s/offline/zips/drive-lib/drive-lib-1.0.3-200629144825.zip",
+    "md5": "2cbe739cc92fc79016bf511ef1be3701",
+    "isLocal": true,
+    "localSourceFile": "supercache/drive-lib-1.0.3-200629144825.zip",
+    "cacheType": "0"
+  }
+]

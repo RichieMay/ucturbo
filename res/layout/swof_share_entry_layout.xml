@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.swof.u4_ui.home.ui.view.AutoSizeTextView android:id="@id/swof_invite_friends_btn" android:layout_alignParentBottom="true" style="@style/connect_button_style" />
+    <com.swof.u4_ui.home.ui.view.AutoSizeTextView android:id="@id/swof_connect_right_btn" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/swof_invite_friends_btn" android:layout_alignParentBottom="true" style="@style/connect_button_style" />
+</RelativeLayout>

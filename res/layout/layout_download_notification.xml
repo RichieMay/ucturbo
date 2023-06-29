@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="78.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_download_ntf_icon" android:layout_width="@dimen/notification_common_size" android:layout_height="@dimen/notification_common_size" android:layout_marginLeft="@dimen/notification_common_margin_left" android:src="@mipmap/download_notification_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/download_op_btn_container" android:layout_toRightOf="@id/iv_download_ntf_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/tv_download_ntf_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="NotoSansCJKsc-Medium" />
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/pb_download_ntf_progress" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:progressDrawable="@drawable/download_notification_progressbar" style="?android:progressBarStyleHorizontal" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/tv_download_ntf_bottom_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/tv_download_ntf_bottom_right" android:layout_alignParentLeft="true" android:fontFamily="NotoSansCJKsc-Regular" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:id="@id/tv_download_ntf_bottom_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentRight="true" android:fontFamily="NotoSansCJKsc-Regular" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/download_op_btn_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_download_play_downloading_video" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="@dimen/notification_common_margin_right" android:src="@drawable/bgp_icon" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_download_ntf_action" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="@dimen/notification_common_margin_right" android:src="@drawable/bgp_icon" />
+    </LinearLayout>
+</RelativeLayout>

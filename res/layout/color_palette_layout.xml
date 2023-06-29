@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/colorpicker_base" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="10.0dip" android:layout_alignLeft="@id/color_palette" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/color_palette" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/buttons_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/color_palette" android:layout_alignLeft="@id/color_palette" android:layout_alignRight="@id/color_palette">
+        <Button android:textColor="@color/lite_blue" android:id="@id/positive" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActionButton" />
+        <Button android:textColor="@color/black_de" android:id="@id/negative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="@style/ActionButton" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/input_enhance_improve_layout" android:layout_width="fill_parent" android:layout_height="@dimen/input_enhance_layout_height">
+        <include android:id="@id/input_enhance_notinput_keyword_left" layout="@layout/input_enhance_notinput_keyword_left" />
+        <include android:id="@id/input_enhance_input_keyword_left" layout="@layout/input_enhance_input_keyword_left" />
+        <com.ucturbo.feature.inputenhance.SliderView android:layout_gravity="center" android:id="@id/slide_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <include android:id="@id/input_enhance_keyword_right" layout="@layout/input_enhance_keyword_right" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/vertical_search_layout" android:layout_width="fill_parent" android:layout_height="@dimen/input_enhance_layout_height">
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/input_enhance_vertical_search_text_size" android:gravity="center_vertical" android:id="@id/vertical_search_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/input_enhance_vertical_search_margin_left" android:layout_marginRight="@dimen/input_enhance_vertical_search_margin_right" android:text="@string/input_enhance_vertical_search_title" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/vertical_search_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:id="@id/web_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/inputenhance_layout_margin">
+        <com.ucturbo.ui.widget.Button android:textSize="@dimen/inputenhance_textsize" android:id="@id/previous_cursor_button" android:paddingLeft="@dimen/inputenhance_button_padding" android:paddingRight="@dimen/inputenhance_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="1.0dip" android:minHeight="1.0dip" />
+        <ImageView android:id="@id/cursor_imageview_split" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/app_name" />
+        <com.ucturbo.ui.widget.Button android:textSize="@dimen/inputenhance_textsize" android:id="@id/next_cursor_button" android:paddingLeft="@dimen/inputenhance_button_padding" android:paddingRight="@dimen/inputenhance_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="1.0dip" android:minHeight="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/fun_button_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inputenhance_layout_margin" android:layout_weight="1.0">
+        <com.ucturbo.ui.widget.Button android:textSize="@dimen/inputenhance_textsize" android:id="@id/cliboard_button" android:paddingLeft="@dimen/inputenhance_button_padding" android:paddingRight="@dimen/inputenhance_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/inputenhance_button_rightmargin" android:minWidth="1.0dip" android:minHeight="1.0dip" />
+        <com.ucturbo.ui.widget.Button android:textSize="@dimen/inputenhance_textsize" android:id="@id/longtext_button" android:paddingLeft="@dimen/inputenhance_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="1.0dip" android:minHeight="1.0dip" />
+    </LinearLayout>
+</merge>

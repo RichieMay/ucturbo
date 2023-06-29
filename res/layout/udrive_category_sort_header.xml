@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/udrive_category_header_container" android:tag="layout/udrive_category_sort_header_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.uc.udrive.framework.ui.widget.CenterCheckedTextView android:textSize="13.0dip" android:gravity="center_vertical" android:id="@id/udrive_category_order_by_time" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/udrive_common_time" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+    <com.uc.udrive.framework.ui.widget.CenterCheckedTextView android:textSize="13.0dip" android:gravity="center_vertical" android:id="@id/udrive_category_order_by_name" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/udrive_common_name" android:layout_weight="1.0" />
+    <com.uc.udrive.framework.ui.widget.CenterCheckedTextView android:textSize="13.0dip" android:gravity="center_vertical" android:id="@id/udrive_category_order_by_size" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/udrive_common_size" android:layout_weight="1.0" />
+</LinearLayout>

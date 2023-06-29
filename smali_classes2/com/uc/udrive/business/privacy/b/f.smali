@@ -1,0 +1,46 @@
+.class final Lcom/uc/udrive/business/privacy/b/f;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/uc/udrive/business/privacy/b/e;
+
+
+# direct methods
+.method constructor <init>(Lcom/uc/udrive/business/privacy/b/e;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/uc/udrive/business/privacy/b/f;->a:Lcom/uc/udrive/business/privacy/b/e;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 0
+
+    .line 40
+    iget-object p1, p0, Lcom/uc/udrive/business/privacy/b/f;->a:Lcom/uc/udrive/business/privacy/b/e;
+
+    .line 1026
+    invoke-virtual {p1}, Lcom/uc/udrive/business/privacy/b/e;->t()V
+
+    .line 41
+    iget-object p1, p0, Lcom/uc/udrive/business/privacy/b/f;->a:Lcom/uc/udrive/business/privacy/b/e;
+
+    invoke-virtual {p1}, Lcom/uc/udrive/business/privacy/b/e;->p()V
+
+    return-void
+.end method

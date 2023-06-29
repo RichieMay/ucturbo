@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/item_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.swof.u4_ui.home.ui.view.roundedimageview.RoundedImageView android:id="@id/swof_grid_photo_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:riv_border_color="@color/swof_gray_line" app:riv_border_width="1.0dip" app:riv_corner_radius="3.0dip" />
+        <FrameLayout android:layout_gravity="center|right|top" android:id="@id/swof_grid_photo_checked_area" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <com.swof.u4_ui.home.ui.view.SelectView android:layout_gravity="center|right|top" android:id="@id/swof_grid_photo_checked" android:padding="@dimen/swof_checked_padding" android:layout_width="@dimen/swof_checked_width" android:layout_height="@dimen/swof_checked_height" android:src="@drawable/swof_default_icon_tick" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

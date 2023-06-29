@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/progress" android:layout_width="@dimen/privacymode_guide_progress_width" android:layout_height="@dimen/privacymode_guide_progress_height" android:progressDrawable="@drawable/horizotal_progressbar" style="?android:progressBarStyleHorizontal" />
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:gravity="center" android:layout_gravity="center" android:id="@id/pm_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:layout_gravity="center_horizontal" android:id="@id/pm_tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/privacymode_guide_progress_desc_margintop" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.swof.u4_ui.home.ui.view.UCLinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/swof_top_text_white_color" android:gravity="center" android:id="@id/title_text" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/title_junk_clean" android:drawablePadding="10.0dip" android:layout_alignParentLeft="true" />
+    </LinearLayout>
+    <include layout="@layout/line_below_activity_header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:scrollbars="none" android:dividerHeight="8.0dip" style="@style/content_list_view" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/loading_view" android:layout_marginTop="16.0dip" style="@style/loading_style" />
+    </FrameLayout>
+</com.swof.u4_ui.home.ui.view.UCLinearLayout>

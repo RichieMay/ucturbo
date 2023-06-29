@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon_file" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="13.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="14.0dip" android:textColor="#ff222222" android:ellipsize="marquee" android:id="@id/tv_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_toLeftOf="@id/edit" android:layout_toRightOf="@id/iv_icon_file" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/edit" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

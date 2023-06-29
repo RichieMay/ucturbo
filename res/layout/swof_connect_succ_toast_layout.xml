@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="200.0dip" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:swof="http://schemas.android.com/apk/res-auto">
+    <com.swof.u4_ui.home.ui.view.ToastShadowLayout android:gravity="center" android:orientation="horizontal" android:layout_width="192.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" swof:swof_corner_radius="6.0dip" swof:swof_distance="3.0dip" swof:swof_shadow_radius="3.0dip" swof:swof_shadowed="true">
+        <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/swof_icon_tips_success" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/swof_connect_toast_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/imageView" android:layout_centerVertical="true" />
+    </com.swof.u4_ui.home.ui.view.ToastShadowLayout>
+</RelativeLayout>

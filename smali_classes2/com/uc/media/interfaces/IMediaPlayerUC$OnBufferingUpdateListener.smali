@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/uc/media/interfaces/IMediaPlayerUC$OnBufferingUpdateListener;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/uc/media/interfaces/IMediaPlayerUC;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnBufferingUpdateListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onBufferingUpdate(Lcom/uc/media/interfaces/IMediaPlayerUC;I)V
+.end method

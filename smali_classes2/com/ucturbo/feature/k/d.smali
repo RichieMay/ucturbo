@@ -1,0 +1,40 @@
+.class final Lcom/ucturbo/feature/k/d;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field final synthetic a:Lcom/ucturbo/feature/k/b;
+
+
+# direct methods
+.method constructor <init>(Lcom/ucturbo/feature/k/b;)V
+    .locals 0
+
+    .line 121
+    iput-object p1, p0, Lcom/ucturbo/feature/k/d;->a:Lcom/ucturbo/feature/k/b;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 0
+
+    .line 124
+    iget-object p1, p0, Lcom/ucturbo/feature/k/d;->a:Lcom/ucturbo/feature/k/b;
+
+    .line 1030
+    iget-object p1, p1, Lcom/ucturbo/feature/k/b;->a:Lcom/ucturbo/feature/k/a$a;
+
+    .line 124
+    invoke-interface {p1}, Lcom/ucturbo/feature/k/a$a;->a()V
+
+    return-void
+.end method

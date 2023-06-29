@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/common_bottom_titlebar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:gravity="center" android:id="@id/bm_tv_1" android:layout_width="0.0dip" android:layout_height="@dimen/common_bottom_titlebar_height" android:text="@string/bookmark_delete" android:layout_weight="1.0" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:gravity="center" android:id="@id/bm_tv_2" android:layout_width="0.0dip" android:layout_height="@dimen/common_bottom_titlebar_height" android:text="@string/bookmark_move" android:layout_weight="1.0" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:gravity="center" android:id="@id/bm_tv_3" android:layout_width="0.0dip" android:layout_height="@dimen/common_bottom_titlebar_height" android:text="@string/bookmark_edit" android:layout_weight="1.0" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:gravity="center" android:id="@id/bm_tv_4" android:layout_width="0.0dip" android:layout_height="@dimen/common_bottom_titlebar_height" android:text="@string/bookmark_complete" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/bm_fl" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/common_bottom_titlebar_height" android:layout_weight="1.0">
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:gravity="center" android:layout_gravity="center" android:id="@id/bm_tv_5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/common_bottom_titlebar_height" android:drawablePadding="@dimen/bookmark_toolbar_drawable_padding" />
+    </FrameLayout>
+</LinearLayout>

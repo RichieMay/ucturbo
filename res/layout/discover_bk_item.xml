@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dicover_page_bookmark_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@id/fl_icon_content" android:layout_width="@dimen/dicover_page_bookmark_item_icon_size" android:layout_height="@dimen/dicover_page_bookmark_item_icon_size" android:layout_marginLeft="@dimen/dicover_page_bookmark_item_icon_marginleft" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_discover_icon_default" android:layout_width="@dimen/dicover_page_bookmark_item_icon_size" android:layout_height="@dimen/dicover_page_bookmark_item_icon_size" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_discover_icon_web" android:layout_width="@dimen/dicover_page_bookmark_item_inner_icon_size" android:layout_height="@dimen/dicover_page_bookmark_item_inner_icon_size" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dicover_page_bookmark_item_title_marginleft" android:layout_marginRight="@dimen/dicover_page_bookmark_item_title_marginright" android:layout_toLeftOf="@id/fl_arrow_content" android:layout_toRightOf="@id/fl_icon_content" android:layout_centerVertical="true">
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/dicover_page_bookmark_item_title_size" android:ellipsize="end" android:id="@id/tv_discover_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_arrow_content" android:layout_width="@dimen/dicover_page_bookmark_item_height" android:layout_height="@dimen/dicover_page_bookmark_item_height" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_discover_arrow" android:clickable="false" android:layout_width="@dimen/dicover_page_bookmark_item_icon_size" android:layout_height="@dimen/dicover_page_bookmark_item_icon_size" android:layout_marginRight="@dimen/dicover_page_bookmark_item_arrow_marginright" />
+    </FrameLayout>
+</RelativeLayout>

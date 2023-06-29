@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/download_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/download_progress" android:layout_width="fill_parent" android:layout_height="@dimen/download_list_item_height" android:maxHeight="@dimen/download_list_item_height" android:minHeight="@dimen/download_list_item_height" style="@style/download_progress" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_download_item_content" android:layout_width="fill_parent" android:layout_height="@dimen/download_list_item_height" android:layout_marginLeft="@dimen/download_list_item_margin_left">
+        <ImageView android:id="@id/iv_chk" android:layout_width="@dimen/download_list_item_checkbox_icon_size" android:layout_height="@dimen/download_list_item_checkbox_icon_size" android:layout_marginLeft="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/download_icon" android:layout_width="@dimen/download_list_item_icon_size" android:layout_height="@dimen/download_list_item_icon_size" android:layout_marginLeft="@dimen/download_list_item_icon_margin_left" android:layout_toRightOf="@id/iv_chk" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/download_op_btn_container" android:layout_toRightOf="@id/download_icon" android:layout_centerVertical="true">
+            <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_list_item_title_size" android:ellipsize="middle" android:id="@id/download_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_list_item_title_content_margin">
+                <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_list_item_content_size" android:id="@id/download_total_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_list_item_content_size" android:id="@id/download_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/download_op_btn_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <FrameLayout android:id="@id/play_downloading_video_btn_container" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginRight="3.0dip">
+                <com.ucturbo.feature.downloadpage.normaldownload.view.PlayDownloadingVideoImageView android:layout_gravity="center" android:id="@id/download_play_downloading_video" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/bgp_icon" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/download_status_btn_container" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginRight="8.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/download_status" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/bgp_icon" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

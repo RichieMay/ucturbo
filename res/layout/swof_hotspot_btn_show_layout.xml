@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/hotspot_btn_float_layout" android:layout_width="fill_parent" android:layout_height="@dimen/swof_circle_shadow_btn_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/send_hotspot_button" android:layout_width="@dimen/swof_circle_shadow_btn_width" android:layout_height="@dimen/swof_circle_shadow_btn_height" layout="@layout/swof_hotspot_btn_layout" />
+    <include android:id="@id/receive_hotspot_button" android:layout_width="@dimen/swof_circle_shadow_btn_width" android:layout_height="@dimen/swof_circle_shadow_btn_height" android:layout_marginLeft="50.0dip" layout="@layout/swof_hotspot_btn_layout" />
+</LinearLayout>

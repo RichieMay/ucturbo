@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_generator" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                <EditText android:gravity="start|center|top" android:id="@id/edt_text_tobe_generate" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/iv_clear_text" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="7.0dip" android:layout_marginEnd="12.0dip" />
+            </FrameLayout>
+            <Button android:id="@id/btn_generate" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="26.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        </LinearLayout>
+        <com.ucturbo.ui.loadingdrawable.LoadingView android:layout_gravity="center" android:id="@id/lv_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_history" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:id="@id/tv_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/iv_delete" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_history" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

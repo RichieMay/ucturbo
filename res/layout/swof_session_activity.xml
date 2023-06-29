@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.swof.u4_ui.home.ui.view.UCLinearLayout android:orientation="vertical" android:id="@id/layout_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/btn_exit" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:drawableLeft="@drawable/swof_icon_back_black" android:drawablePadding="10.0dip" />
+        <com.swof.u4_ui.home.ui.view.ColorFilterView android:layout_gravity="center|right" android:id="@id/btn_disconnect" android:background="@drawable/swof_icon_quit_dark" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" app:filterColor="#ff666666" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.swof.u4_ui.home.ui.view.UCLinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ucturbo.ui.loadingdrawable.LoadingView android:layout_gravity="center" android:id="@id/lv_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_success" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_qrcode" android:layout_width="180.0dip" android:layout_height="180.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_center_icon" android:background="#ffffffff" android:padding="0.5dip" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:maxLines="2" android:fontFamily="NotoSansCJKsc-Regular" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_failed" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:layout_gravity="center" android:id="@id/tv_failed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/urltip_qrcode_generate_failed" android:fontFamily="NotoSansCJKsc-Regular" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_refresh" android:background="@drawable/shape_qrcode_refresh_button" android:paddingLeft="14.0dip" android:paddingTop="8.0dip" android:paddingRight="14.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_refresh_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/bgp_play" />
+            <TextView android:textSize="10.0sp" android:layout_gravity="center_vertical" android:id="@id/tv_refresh_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/common_try_again" android:fontFamily="NotoSansCJKsc-Medium" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ll_bottom" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/v_div_line" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+        <Button android:id="@id/btn_save_to_gallery" android:background="@color/transparent" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/urltip_qrcode_button_save" android:textAllCaps="false" />
+    </LinearLayout>
+</FrameLayout>

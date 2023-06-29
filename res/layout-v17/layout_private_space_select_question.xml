@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_question1" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="24.0dip">
+        <ImageView android:id="@id/private_question_check" android:layout_width="@dimen/common_list_item_checkbox_size" android:layout_height="@dimen/common_list_item_checkbox_size" android:layout_marginLeft="@dimen/common_list_item_checkbox_margin_left" android:layout_marginStart="@dimen/common_list_item_checkbox_margin_left" />
+        <TextView android:textSize="14.0sp" android:id="@id/private_question_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_question2" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <ImageView android:id="@id/private_question_check" android:layout_width="@dimen/common_list_item_checkbox_size" android:layout_height="@dimen/common_list_item_checkbox_size" android:layout_marginLeft="@dimen/common_list_item_checkbox_margin_left" android:layout_marginStart="@dimen/common_list_item_checkbox_margin_left" />
+        <TextView android:textSize="14.0sp" android:id="@id/private_question_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_question3" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <ImageView android:id="@id/private_question_check" android:layout_width="@dimen/common_list_item_checkbox_size" android:layout_height="@dimen/common_list_item_checkbox_size" android:layout_marginLeft="@dimen/common_list_item_checkbox_margin_left" android:layout_marginStart="@dimen/common_list_item_checkbox_margin_left" />
+        <TextView android:textSize="14.0sp" android:id="@id/private_question_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" />
+    </LinearLayout>
+</LinearLayout>

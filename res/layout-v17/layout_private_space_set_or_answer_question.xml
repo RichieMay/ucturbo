@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_question" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginTop="36.0dip">
+        <ImageView android:id="@id/iv_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="24.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/iv_arrow" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="15.0sp" android:id="@id/tv_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toLeftOf="@id/iv_arrow" android:layout_toRightOf="@id/iv_icon" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_toStartOf="@id/iv_arrow" android:layout_toEndOf="@id/iv_icon" />
+    </RelativeLayout>
+    <EditText android:id="@id/edt_answer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="20.0dip" android:maxLength="20" android:textCursorDrawable="@drawable/shape_private_space_cursor" android:layout_marginStart="24.0dip" android:layout_marginEnd="20.0dip" />
+    <Button android:textSize="15.0sp" android:gravity="center" android:id="@id/btn_confirm" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:text="setting" android:textAllCaps="false" android:layout_marginStart="24.0dip" android:layout_marginEnd="20.0dip" />
+</LinearLayout>

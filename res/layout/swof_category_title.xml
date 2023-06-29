@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/cate_title_layout" android:layout_height="wrap_content" style="@style/swof_tab_category_title_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/swof_category_left_lv" android:layout_width="0.0dip" android:layout_height="38.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_swof_category_left_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:id="@id/item1_title" style="@style/SwofCategoryTitleItem" />
+            <TextView android:id="@id/cate_title" android:visibility="gone" style="@style/SwofCategoryTitleItem" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_below="@id/ll_swof_category_left_title" android:layout_alignLeft="@id/ll_swof_category_left_title" android:layout_alignRight="@id/ll_swof_category_left_title" android:layout_centerHorizontal="true">
+            <View android:id="@id/id_cate_indicator" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_marginTop="1.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/swof_category_right_lv" android:layout_width="0.0dip" android:layout_height="38.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_swof_category_right_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:id="@id/item2_title" style="@style/SwofCategoryTitleItem" />
+            <TextView android:id="@id/cate_title" style="@style/SwofCategoryTitleItem" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_below="@id/ll_swof_category_right_title" android:layout_alignLeft="@id/ll_swof_category_right_title" android:layout_alignRight="@id/ll_swof_category_right_title" android:layout_centerHorizontal="true">
+            <View android:id="@id/id_cate_indicator" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_marginTop="1.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

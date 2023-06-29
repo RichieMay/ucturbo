@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/swof_folder_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.swof.u4_ui.home.ui.view.roundedimageview.RoundedImageView android:id="@id/swof_audio_img" android:layout_width="@dimen/swof_list_item_icon_width" android:layout_height="@dimen/swof_list_item_icon_height" android:layout_marginLeft="50.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" app:riv_corner_radius="5.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/swof_audio_file_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="45.0dip" android:layout_toRightOf="@id/swof_audio_img" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0dip" android:ellipsize="end" android:layout_gravity="left" android:id="@id/swof_audio_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:singleLine="true" />
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:layout_gravity="left" android:id="@id/swof_audio_time_and_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <com.swof.u4_ui.home.ui.view.SelectView android:id="@id/swof_audio_check" android:padding="@dimen/swof_checked_padding" android:layout_width="@dimen/swof_checked_width" android:layout_height="@dimen/swof_checked_height" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/swof_default_icon_tick" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_add_favour_btn" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/swof_icon_unlike" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

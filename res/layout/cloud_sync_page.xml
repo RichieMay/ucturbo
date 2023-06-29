@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/sync_page_logo" android:layout_width="@dimen/clound_sync_logo_width" android:layout_height="@dimen/clound_sync_logo_height" android:layout_marginTop="@dimen/clound_sync_logo_margin_top" />
+    <TextView android:textSize="@dimen/clound_sync_allow_tip_textsize" android:id="@id/sync_page_allow_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clound_sync_allow_tip_margin_top" />
+    <FrameLayout android:id="@id/sync_page_sync_btn_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clound_sync_sync_btn_container_margin_top" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/clound_sync_allow_tip_textsize" android:gravity="center" android:id="@id/sync_page_import_uc" android:layout_width="@dimen/clound_sync_import_btn_width" android:layout_height="@dimen/clound_sync_import_btn_height" android:text="@string/cloud_sync_import_browser" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/sync_page_exit_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clound_sync_exit_container_margin_top" android:layout_marginBottom="@dimen/clound_sync_exit_container_margin_bottom">
+        <TextView android:textSize="@dimen/clound_sync_allow_tip_textsize" android:id="@id/sync_page_exit_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/clound_sync_exit_account_margin_right" />
+        <TextView android:textSize="@dimen/clound_sync_allow_tip_textsize" android:id="@id/sync_page_exit_stat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_sync_exit" />
+    </LinearLayout>
+</LinearLayout>

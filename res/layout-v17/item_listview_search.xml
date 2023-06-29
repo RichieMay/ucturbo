@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_file_select" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/check_area" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <com.swof.u4_ui.home.ui.view.SelectView android:id="@id/slv_file_select" android:padding="@dimen/swof_checked_padding" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/swof_default_icon_tick" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.swof.u4_ui.home.ui.view.roundedimageview.RoundedImageView android:id="@id/icon_select" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:riv_corner_radius="5.0dip" style="@style/listview_icon_style" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toRightOf="@id/icon_select" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" android:layout_toEndOf="@id/icon_select">
+        <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/name_file" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:id="@id/kb_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name_file" />
+    </RelativeLayout>
+</RelativeLayout>

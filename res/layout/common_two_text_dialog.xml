@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bm_ll_bg" android:paddingLeft="@dimen/common_dialog_margin_left" android:paddingTop="@dimen/common_dialog_margin_top" android:paddingRight="@dimen/common_dialog_margin_left" android:paddingBottom="@dimen/common_dialog_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_dialog_text_size" android:textColor="@color/common_titlebar_title_color" android:ellipsize="end" android:id="@id/bm_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_dialog_small_text_size" android:textColor="@color/common_titlebar_content_color" android:id="@id/bm_tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_two_text_dialog_content_margin_top" />
+</LinearLayout>

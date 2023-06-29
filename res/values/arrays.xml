@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_colors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+        <item>@color/color9</item>
+        <item>@color/color10</item>
+        <item>@color/color11</item>
+        <item>@color/color12</item>
+        <item>@color/color13</item>
+        <item>@color/color14</item>
+        <item>@color/color15</item>
+    </array>
+    <string-array name="hardcode_bookmark_names">
+        <item>Yahoo</item>
+        <item>Wikipedia</item>
+        <item>Amazon</item>
+        <item>Tumblr</item>
+        <item>Pinterest</item>
+        <item>Quora</item>
+    </string-array>
+    <string-array name="hardcode_bookmark_urls">
+        <item>https://www.yahoo.com/</item>
+        <item>https://www.wikipedia.org/</item>
+        <item>https://www.amazon.com/</item>
+        <item>https://www.tumblr.com/</item>
+        <item>https://www.pinterest.com/</item>
+        <item>https://www.quora.com/</item>
+    </string-array>
+    <string-array name="hardcode_navigation_icons">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020112</item>
+        <item>2020113</item>
+        <item>2020114</item>
+        <item>2020115</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_in">
+        <item>2020110</item>
+        <item>2020116</item>
+        <item>2020117</item>
+        <item>2020118</item>
+        <item>2020111</item>
+        <item>2020119</item>
+        <item>2020120</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_inds">
+        <item>2020110</item>
+        <item>2020121</item>
+        <item>2020111</item>
+        <item>2020122</item>
+        <item>2020123</item>
+        <item>2020124</item>
+        <item>2020125</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_jp">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020112</item>
+        <item>2020131</item>
+        <item>2020114</item>
+        <item>2020115</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_mjlg">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020132</item>
+        <item>2020133</item>
+        <item>2020134</item>
+        <item>2020135</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_mlxy">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020112</item>
+        <item>2020136</item>
+        <item>2020114</item>
+        <item>2020137</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_pjst">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020132</item>
+        <item>2020133</item>
+        <item>2020138</item>
+        <item>2020139</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_ru">
+        <item>2020110</item>
+        <item>2020126</item>
+        <item>2020127</item>
+        <item>2020128</item>
+        <item>2020129</item>
+        <item>2020130</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_sd">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020112</item>
+        <item>2020140</item>
+        <item>2020114</item>
+        <item>2020115</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_tg">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020141</item>
+        <item>2020142</item>
+        <item>2020114</item>
+        <item>2020143</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_wzbkst">
+        <item>2020110</item>
+        <item>2020126</item>
+        <item>2020112</item>
+        <item>2020144</item>
+        <item>2020129</item>
+        <item>2020145</item>
+    </string-array>
+    <string-array name="hardcode_navigation_ids_yn">
+        <item>2020110</item>
+        <item>2020111</item>
+        <item>2020146</item>
+        <item>2020147</item>
+        <item>2020148</item>
+        <item>2020149</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>Wikipedia</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_in">
+        <item>YouTube</item>
+        <item>News</item>
+        <item>Cricket</item>
+        <item>Google</item>
+        <item>Facebook</item>
+        <item>Amazon</item>
+        <item>Flipkart</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_inds">
+        <item>YouTube</item>
+        <item>News</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Liputan6</item>
+        <item>Indosport</item>
+        <item>Lazada</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_jp">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Yahoo</item>
+        <item>Twitter</item>
+        <item>Wikipedia</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_mjlg">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Cricbuzz</item>
+        <item>Prothomalo</item>
+        <item>Bdnews24</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_mlxy">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>4D</item>
+        <item>Twitter</item>
+        <item>Lazada</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_pjst">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Cricbuzz</item>
+        <item>Starzplay</item>
+        <item>Dailymotion</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_ru">
+        <item>YouTube</item>
+        <item>Яндекс</item>
+        <item>Google</item>
+        <item>VK</item>
+        <item>OK</item>
+        <item>Авито</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_sd">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Kooora</item>
+        <item>Twitter</item>
+        <item>Wikipedia</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_tg">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>นิเมชั่น</item>
+        <item>Twitter</item>
+        <item>Pantip</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_wzbkst">
+        <item>YouTube</item>
+        <item>Яндекс</item>
+        <item>Google</item>
+        <item>Kun</item>
+        <item>OK</item>
+        <item>Olx</item>
+    </string-array>
+    <string-array name="hardcode_navigation_titles_yn">
+        <item>YouTube</item>
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Baomoi</item>
+        <item>24h</item>
+        <item>Lazada</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com/webhp?client=ucweb-turbo-b-bookmark</item>
+        <item>https://www.instagram.com</item>
+        <item>https://mobile.twitter.com</item>
+        <item>https://www.wikipedia.org</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_in">
+        <item>https://m.youtube.com</item>
+        <item>https://www.ucnews.in/?uc_param_str=dnpfnivebichfrmintcpgieiwidsudsv</item>
+        <item>https://uccricket.ucweb.com/?uc_param_str=sndnfrpfbivesscpgimibtbmntnijblauputoggdnwsvdsktpcliuddimtil&amp;stat_entry=Turbo</item>
+        <item>https://www.google.co.in/webhp?client=ucweb-turbo-b-bookmark</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.amazon.in</item>
+        <item>https://www.flipkart.com</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_inds">
+        <item>https://m.youtube.com</item>
+        <item>https://www.ucnews.id/?uc_param_str=dnpfnivebichfrmintcpgieiwidsudsv</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.co.id/search?client=ucweb-turbo-b-bookmark</item>
+        <item>https://m.liputan6.com</item>
+        <item>https://www.indosport.com</item>
+        <item>https://www.lazada.co.id</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_jp">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com/webhp?client=ucweb-turbo-b-bookmark</item>
+        <item>https://www.yahoo.co.jp</item>
+        <item>https://mobile.twitter.com</item>
+        <item>https://www.wikipedia.org</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_mjlg">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com/search?client=ucweb-turbo-b-bookmark</item>
+        <item>https://m.cricbuzz.com</item>
+        <item>https://www.prothomalo.com</item>
+        <item>https://m.bdnews24.com/bn</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_mlxy">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com/webhp?client=ucweb-turbo-b-bookmark</item>
+        <item>https://www.kiss4d.com</item>
+        <item>https://mobile.twitter.com</item>
+        <item>https://www.lazada.com.my</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_pjst">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com/search?client=ucweb-turbo-b-bookmark</item>
+        <item>https://m.cricbuzz.com</item>
+        <item>https://starzplay.pk</item>
+        <item>https://www.dailymotion.com</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_ru">
+        <item>https://m.youtube.com</item>
+        <item>https://yandex.ru</item>
+        <item>https://www.google.ru/search?client=ucweb-turbo-b-bookmark</item>
+        <item>https://m.vk.com</item>
+        <item>https://m.ok.ru</item>
+        <item>https://m.avito.ru</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_sd">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com/webhp?client=ucweb-turbo-b-bookmark</item>
+        <item>https://m.kooora.com</item>
+        <item>https://mobile.twitter.com</item>
+        <item>https://www.wikipedia.org</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_tg">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com.th/search?client=ucweb-turbo-b-bookmark</item>
+        <item>https://www.anime-sugoi.com</item>
+        <item>https://mobile.twitter.com</item>
+        <item>http://m.pantip.com</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_wzbkst">
+        <item>https://m.youtube.com</item>
+        <item>https://yandex.ru</item>
+        <item>https://www.google.com/webhp?client=ucweb-turbo-b-bookmark</item>
+        <item>https://kun.uz</item>
+        <item>https://m.ok.ru</item>
+        <item>https://www.olx.uz/</item>
+    </string-array>
+    <string-array name="hardcode_navigation_urls_yn">
+        <item>https://m.youtube.com</item>
+        <item>https://m.facebook.com</item>
+        <item>https://www.google.com.vn/search?client=ucweb-turbo-b-bookmark</item>
+        <item>https://m.baomoi.com</item>
+        <item>https://www.24h.com.vn</item>
+        <item>https://www.lazada.vn</item>
+    </string-array>
+    <string-array name="hardcode_vertical_search_engine_iconnames">
+        <item>search_weibo_icon.svg</item>
+        <item>search_zhihu_icon.svg</item>
+        <item>search_youku_icon.svg</item>
+        <item>search_douban_icon.svg</item>
+        <item>search_weixin_icon.svg</item>
+    </string-array>
+    <string-array name="hardcode_vertical_search_engine_names">
+        <item>微博</item>
+        <item>知乎</item>
+        <item>优酷</item>
+        <item>豆瓣</item>
+        <item>微信</item>
+    </string-array>
+    <string-array name="hardcode_vertical_search_engine_urls">
+        <item>http://s.weibo.com/weibo/%s</item>
+        <item>http://www.zhihu.com/search?type=content&amp;q=%s</item>
+        <item>http://www.soku.com/m/y/video?q=%s&amp;tpa=dW5pb25faWQ9MTAzOTQyXzEwMDAwMV8wMV8wMQ</item>
+        <item>https://m.douban.com/search/?query=%s</item>
+        <item>http://weixin.sogou.com/weixinwap?type=2&amp;query=%s</item>
+    </string-array>
+    <string-array name="home_button_keywords">
+        <item>首页按钮</item>
+        <item>回到首页</item>
+        <item>返回首页</item>
+        <item>主页键</item>
+        <item>主页按钮</item>
+        <item>回到主页</item>
+        <item>回主页</item>
+    </string-array>
+    <string-array name="night_mode_keywords">
+        <item>夜间模式</item>
+    </string-array>
+    <string-array name="quit_button_keywords">
+        <item>退出按钮</item>
+        <item>退出功能</item>
+        <item>退出项</item>
+        <item>退出键</item>
+        <item>退出浏览器</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.swof.u4_ui.view.IntercepterViewPager android:id="@id/ckassify_view_pager" android:layout_width="fill_parent" android:layout_height="107.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip">
+        <View android:id="@id/dot_one" android:background="@color/file_manager_title_text_color" android:layout_width="6.0dip" android:layout_height="2.0dip" android:layout_marginRight="2.0dip" />
+        <View android:id="@id/dot_two" android:background="@color/swof_DDFDFDF" android:layout_width="6.0dip" android:layout_height="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

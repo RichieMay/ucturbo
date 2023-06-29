@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/cloud_view_left_line" android:visibility="gone" android:layout_width="@dimen/clound_sync_other_way_line_width" android:layout_height="@dimen/clound_sync_other_way_line_height" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/clound_sync_other_way_text_size" android:id="@id/cloud_tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/clound_sync_other_way_text_margin_left" android:layout_marginRight="@dimen/clound_sync_other_way_text_margin_right" />
+    <View android:id="@id/cloud_view_right_line" android:visibility="gone" android:layout_width="@dimen/clound_sync_other_way_line_width" android:layout_height="@dimen/clound_sync_other_way_line_height" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+.class interface abstract Lcom/ucturbo/feature/webwindow/x$a;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ucturbo/feature/webwindow/x;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x608
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract t()V
+.end method

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.swof.u4_ui.home.ui.view.UCRelativeLayout android:id="@id/root" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/search_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/search_edit_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/cancle_search_btn" android:layout_toRightOf="@id/search_img" android:layout_centerVertical="true">
+            <EditText android:textSize="15.0sp" android:gravity="center_vertical" android:id="@id/search_tv" android:background="@null" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" android:singleLine="true" android:layout_centerVertical="true" android:textCursorDrawable="@drawable/cursor_background" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/swof_color_404040" android:gravity="center" android:id="@id/cancle_search_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_alignParentRight="true" />
+        <View android:layout_alignParentBottom="true" style="@style/swof_content_line_style" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/icon_searching" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_searching" />
+        <TextView android:textSize="14.0sp" android:id="@id/tv_searching" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/no_result_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/icon_empty" android:layout_width="130.0dip" android:layout_height="90.0dip" />
+        <TextView android:textSize="14.0sp" android:id="@id/tv_can_not_find" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView android:id="@id/search_result_lv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="48.0dip" android:divider="@null" />
+    <com.swof.u4_ui.home.ui.view.FileSelectView android:layout_gravity="bottom" android:id="@id/file_view_select" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.swof.u4_ui.view.FileManagerBottomView android:layout_gravity="bottom" android:id="@id/file_manger_bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/create_receive_fragment_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.swof.u4_ui.home.ui.view.UCRelativeLayout>

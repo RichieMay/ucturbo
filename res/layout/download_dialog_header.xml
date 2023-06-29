@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:id="@id/download_dialog_fl_tips" android:layout_width="fill_parent" android:layout_height="@dimen/download_dialog_tips_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_dialog_tips_text_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/download_dialog_tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/download_dialog_text_margin_left" android:layout_marginRight="@dimen/download_dialog_text_margin_right" android:text="@string/download_dialog_tips" android:singleLine="true" />
+</FrameLayout>

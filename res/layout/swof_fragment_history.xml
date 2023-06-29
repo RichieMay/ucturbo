@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/swof_tab_history_receive_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="54.0dip" android:cacheColorHint="#00000000" android:divider="@null" android:overScrollMode="never" />
+    <ListView android:id="@id/swof_tab_history_send_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="54.0dip" android:cacheColorHint="#00000000" android:divider="@null" android:overScrollMode="never" />
+    <TextView android:textSize="@dimen/swof_text_size_14" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/swof_history_empty_textview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/swof_history_select_container" style="@style/swof_tab_category_title_style">
+        <TextView android:id="@id/swof_history_receive_tv" android:layout_width="0.0dip" android:layout_marginLeft="0.0dip" android:layout_weight="1.0" style="@style/SwofCategoryTitleItem" />
+        <TextView android:id="@id/swof_history_send_tv" android:layout_width="0.0dip" android:layout_marginLeft="0.0dip" android:layout_weight="1.0" style="@style/SwofCategoryTitleItem" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+</FrameLayout>

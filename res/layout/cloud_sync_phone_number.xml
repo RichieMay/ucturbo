@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ucweb.materialedittext.MaterialEditText android:textSize="@dimen/clound_sync_edittext_text_size" android:gravity="center" android:id="@id/cloud_sycn_et_phone" android:layout_width="@dimen/clound_sync_edittext_width" android:layout_height="wrap_content" android:maxLength="11" android:layout_centerHorizontal="true" android:inputType="number" app:met_clearButton="true" app:met_floatingLabel="highlight" app:met_singleLineEllipsis="true" />
+    <com.ucweb.materialedittext.MaterialEditText android:textSize="@dimen/clound_sync_edittext_text_size" android:gravity="center" android:id="@id/cloud_sycn_et_verif_code" android:layout_width="@dimen/clound_sync_edittext_width" android:layout_height="wrap_content" android:maxLength="4" android:inputType="number" android:imeOptions="actionDone" app:met_clearButton="true" app:met_floatingLabel="highlight" app:met_singleLineEllipsis="true" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/clound_sync_verif_code_text_size" android:gravity="center" android:layout_gravity="center" android:id="@id/cloud_sycn_tv_auto_code" android:layout_width="@dimen/clound_sync_verif_code_text_width" android:layout_height="@dimen/clound_sync_verif_code_text_height" />
+</LinearLayout>

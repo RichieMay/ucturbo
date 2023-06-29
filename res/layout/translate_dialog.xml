@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ucturbo.ui.scrollview.ScrollViewWithMaxHeight android:scrollbarSize="2.0dip" android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb" android:id="@id/translate_sv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginTop="33.0dip" android:layout_marginRight="6.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip">
+            <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="11.0dip" android:id="@id/translate_source_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/translate_source_text" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="14.0dip" android:id="@id/translate_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingExtra="6.0dip" />
+            </LinearLayout>
+            <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="11.0dip" android:id="@id/translate_target_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:text="@string/translate_target_text" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="14.0dip" android:id="@id/translate_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:lineSpacingExtra="6.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.ucturbo.ui.scrollview.ScrollViewWithMaxHeight>
+</FrameLayout>

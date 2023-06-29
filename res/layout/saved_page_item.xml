@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/savepage_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_savedpage_item" android:layout_width="fill_parent" android:layout_height="@dimen/savepage_list_item_height" android:layout_marginLeft="@dimen/savepage_list_item_margin_left">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_chk" android:layout_width="@dimen/download_list_item_checkbox_icon_size" android:layout_height="@dimen/download_list_item_checkbox_icon_size" android:layout_marginLeft="@dimen/savepage_list_item_icon_margin_left" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_icon" android:layout_width="@dimen/savepage_list_item_icon_width" android:layout_height="@dimen/savepage_list_item_icon_height" android:layout_marginLeft="@dimen/savepage_list_item_icon_margin_left" android:layout_marginRight="@dimen/savepage_list_item_icon_margin_right" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/savepage_list_item_height">
+            <TextView android:textSize="12.0sp" android:textColor="#ff222222" android:ellipsize="middle" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="NotoSansCJKsc-Regular" />
+            <TextView android:textSize="9.0sp" android:textColor="#ff999999" android:ellipsize="middle" android:id="@id/tv_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="PingFangSC-Regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

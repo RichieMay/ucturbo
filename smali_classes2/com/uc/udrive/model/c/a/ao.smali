@@ -1,0 +1,38 @@
+.class final Lcom/uc/udrive/model/c/a/ao;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Lcom/uc/umodel/network/framework/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/uc/umodel/network/framework/b<",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/uc/udrive/model/a;
+
+.field final synthetic b:Lcom/uc/udrive/model/c/a/aj;
+
+
+# direct methods
+.method constructor <init>(Lcom/uc/udrive/model/c/a/aj;Lcom/uc/udrive/model/a;)V
+    .locals 0
+
+    .line 293
+    iput-object p1, p0, Lcom/uc/udrive/model/c/a/ao;->b:Lcom/uc/udrive/model/c/a/aj;
+
+    iput-object p2, p0, Lcom/uc/udrive/model/c/a/ao;->a:Lcom/uc/udrive/model/a;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

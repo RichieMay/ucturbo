@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/common_titlebar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/bm_iv_item_checkbox" android:layout_width="@dimen/common_titlebar_title_icon_size" android:layout_height="@dimen/common_titlebar_title_icon_size" android:layout_marginLeft="@dimen/common_titlebar_margin_negative_left" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/bm_iv_item_fav" android:layout_width="@dimen/common_titlebar_title_icon_size" android:layout_height="@dimen/common_titlebar_title_icon_size" android:layout_marginLeft="@dimen/common_titlebar_margin_left" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/bm_ll_tvcontain" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_titlebar_margin_left" android:layout_marginRight="@dimen/common_titlebar_margin_left" android:layout_weight="1.0">
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:ellipsize="end" android:id="@id/bm_tv_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_titlebar_title_size" android:ellipsize="end" android:id="@id/bm_tv_item_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/bm_iv_item_arrow" android:layout_width="@dimen/common_titlebar_title_icon_size" android:layout_height="@dimen/common_titlebar_title_icon_size" android:layout_marginLeft="@dimen/common_titlebar_margin_left" android:layout_marginRight="@dimen/common_titlebar_margin_right" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:swof="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/bottom_top_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/ly_select_show" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/img_selected" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/skin_default_swof_bottom_select" />
+        <TextView android:textSize="9.0sp" android:gravity="center" android:id="@id/tv_select_file" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="14.0dip" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/btn_send_select" android:paddingLeft="33.0dip" android:paddingRight="33.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@id/tv_send_MB" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/head_icon_bg" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <com.swof.u4_ui.home.ui.view.CircleImageView android:id="@id/swof_transfer_avatar" android:background="@drawable/swof_round_stroke_shape" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/head_icon_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="S" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/swof_transfer_success_imageview" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/swof_icon_tips_success" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+        <com.swof.u4_ui.home.ui.view.CircleProgress android:id="@id/swof_circle_progress" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_centerInParent="true" android:layout_centerVertical="true" swof:donut_circle_starting_degree="90" swof:donut_finished_stroke_width="2.0dip" swof:donut_max="100" swof:donut_progress="100" swof:donut_unfinished_color="#00000000" swof:donut_unfinished_stroke_width="2.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

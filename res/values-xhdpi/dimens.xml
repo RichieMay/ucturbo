@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="udrive_guide_account_icon_margin_bottom">40.0dip</dimen>
+    <dimen name="udrive_guide_common_text_size">16.0dip</dimen>
+</resources>

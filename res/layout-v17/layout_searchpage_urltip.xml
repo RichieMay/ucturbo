@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_main" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="44.69998dip" android:baselineAligned="false" android:showDividers="middle" android:dividerPadding="12.299988dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_icon_copy" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="6.0dip" android:layout_marginEnd="6.0dip" />
+            <TextView android:id="@id/tv_title_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/urltip_button_copy_text" android:textAllCaps="false" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_icon_qrcode" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="6.0dip" android:layout_marginEnd="6.0dip" />
+            <TextView android:id="@id/tv_title_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/urltip_button_qrcode_text" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/v_bottom_line" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/udrive_home_task_tab_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/udrive_hp_task_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabIndicatorFullWidth="false" app:tabMode="fixed" app:tabPaddingBottom="@dimen/udrive_task_tab_vertical_padding" app:tabPaddingTop="@dimen/udrive_task_tab_vertical_padding" app:tabTextAppearance="@style/TabTextTextAppearance" />
+    <View android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.uc.udrive.framework.ui.widget.SupportNoScrollViewPager android:id="@id/udrive_hp_task_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

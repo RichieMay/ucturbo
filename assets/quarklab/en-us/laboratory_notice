@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html style="font-size: 500px;">
+<head>
+<meta http-equiv="content-type"  content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="wap-font-scale" content="no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>Krauq Laboratory instructions</title>
+<style type="text/css">
+html, body, span, div, p, a, table, tbody, td, h1, h2, h3, img, form, strong, b, i, dl, dt, dd, ol, ul, li, dl, dd, dt {padding:0; margin:0;list-style: none;}
+
+body {
+	line-height: .036rem;
+	font-family:'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',arial;
+	color:#222;
+	font-size: 14px;
+	background:#fff;
+}
+a, a:link {color:#222; text-decoration:none;}
+a:active, a:visited {color:#222;}
+
+.wrap{
+	margin: 0.01rem .018rem .02rem;
+}
+.wrap p{
+	margin-bottom: .032rem;
+    margin-left: .025rem;
+    margin-right: .025rem;
+	font-size: .024rem;
+}
+.wrap h2{
+    margin-left: .025rem;
+    margin-right: .025rem;
+    margin-bottom: .032rem;
+	font-size: .024rem;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<p>Welcome to Krauq Lab!</p>
+
+<h2>To use Krauq Labs (hereinafter referred to as "the Product"), you should read and comply with this Supplemental Agreement. Please be sure to read carefully and fully understand the terms and conditions, unless you have read and accept all the terms, or do not enter or use Krauq laboratory.</h2>
+
+<h2>By entering or using this product, you acknowledge and agree that:</h2>
+
+
+
+<h2>1. Through the use of this product, you can experience in advance the experimental features that Quaker browser software is testing; risks associated with the use of this product may include but are not limited to technical defects and flaws that may directly or indirectly affect your normality of quark software and services May result in the loss of some or all of the data of your terminal device or legacy quark software client that can not be retrieved, the user experience difference, and the quark software suspension / termination of the service. </h2>
+
+<p>2. Before using or turning on the experimental features in this product, make a backup copy of your terminal device and your existing quark software client.</p>
+
+<p>3. Quark's experimental features and services can be experienced while using or turning on the experimental features in this product. Quark does not promise all or part of the experimental features and services in this product will inevitably apply to the official version of the software, nor does it assume any responsibility for the differences between the two and the consequences of the differences, such as: Part of the product within the experiment Sexual function offline or does not appear in the official version of the quark caused this part of the function is unavailable or data is lost.</p>
+
+<h2>4. Quark team welcome and thank you and other users of this product for feedback, Quark can feedback on the content of their own assessment, decided to modify the product features and services and improvements, and to provide you with the upgrade, the revised features and Service, but quark is not obliged to do the above. Some of the features in this product will default to be on or off automatically by the system, which you can turn off or enable on the corresponding interface.</h2>
+
+<p>5. Quark has the right to determine, change, adjust the list of users who can use the product, and have the right to suspend, terminate to provide you with this product. After you stop providing this product, you still have access to the existing features of the released official version of Quark.</p>
+
+<h2>6. Quark will take the necessary technical measures to be fair and prudent in accordance with industry standards to protect your terminal equipment information and data security, but you acknowledge and agree that Quark does not provide a complete guarantee. You also agree that Quark shall in no circumstances be liable for any loss of data, damage to your terminal equipment, direct or indirect financial loss and other damages as a result of your use of this product.</h2>
+
+
+<h2 align="right">Quark team     </h2>
+
+</div>
+<script type="text/javascript">
+(function fitScreen(){
+	var lastWindowWidth = window.innerWidth,
+        converFactor =640 / 1000;
+
+    document.querySelector('html').style.fontSize = lastWindowWidth/ converFactor + 'px';
+})();	
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarSize="3.0dip" android:scrollbarThumbHorizontal="@drawable/multiwindow_scrollerview_bar_night" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false" android:overScrollMode="ifContentScrolls"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

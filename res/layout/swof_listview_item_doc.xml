@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/swof_folder_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/swof_doc_icon_container" android:layout_width="@dimen/swof_list_item_icon_width" android:layout_height="@dimen/swof_list_item_icon_height" android:layout_marginLeft="50.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/swof_doc_item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_toRightOf="@id/swof_doc_icon_container" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:ellipsize="end" android:layout_gravity="left" android:id="@id/swof_doc_item_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/swof_text_size_11" android:ellipsize="end" android:layout_gravity="left" android:id="@id/swof_doc_item_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <com.swof.u4_ui.home.ui.view.ColorFilterView android:id="@id/swof_doc_item_arrow" android:background="@drawable/file_manager_right_arrow" android:layout_width="16.0dip" android:layout_height="30.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:filterColor="@color/swof_list_right_arrow_color" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout android:id="@id/swof_check_area" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.swof.u4_ui.home.ui.view.SelectView android:layout_gravity="center" android:id="@id/swof_doc_item_checkbox" android:padding="@dimen/swof_checked_padding" android:layout_width="@dimen/swof_checked_width" android:layout_height="@dimen/swof_checked_height" android:src="@drawable/swof_default_icon_tick" android:scaleType="fitXY" />
+    </FrameLayout>
+</RelativeLayout>

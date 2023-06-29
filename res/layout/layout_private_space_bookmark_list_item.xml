@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="-46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_chk" android:layout_width="@dimen/common_list_item_checkbox_size" android:layout_height="@dimen/common_list_item_checkbox_size" android:layout_marginLeft="@dimen/common_list_item_checkbox_margin_left" />
+    <ImageView android:id="@id/iv_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="20.0dip" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:ellipsize="middle" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="12.0sp" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

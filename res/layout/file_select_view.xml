@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.swof.u4_ui.home.ui.view.FileSelectPopuWindow android:layout_gravity="bottom" android:id="@id/popuwindow_select_file" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="45.0dip" />
+    <com.swof.u4_ui.home.ui.view.FileSelectBottomView android:layout_gravity="bottom" android:id="@id/bottom_view_select" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/night_mode_cover" android:background="@color/swof_color_grey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

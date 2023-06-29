@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/download_store_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/download_store_progress" android:layout_width="fill_parent" android:layout_height="@dimen/download_store_height" />
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_store_text_size" android:gravity="center" android:layout_gravity="center" android:id="@id/download_store_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

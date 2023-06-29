@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <include android:id="@id/wgt_ping" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/widget_speed_test_result" />
+        <include android:id="@id/wgt_download" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/widget_speed_test_result" />
+        <include android:id="@id/wgt_upload" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/widget_speed_test_result" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="280.0dip" android:layout_height="280.0dip" android:layout_marginTop="40.0dip">
+        <com.ucturbo.feature.littletools.networkspeedtest.view.SpeedTestDashboardView android:layout_gravity="center|top" android:id="@id/spt_dashboard" android:layout_width="280.0dip" android:layout_height="280.0dip" />
+        <FrameLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="16.0sp" android:id="@id/btn_restart" android:layout_width="127.0dip" android:layout_height="50.0dip" android:layout_marginBottom="12.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_speed" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="50.0sp" android:textStyle="bold" android:id="@id/tv_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="18.0sp" android:id="@id/tv_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

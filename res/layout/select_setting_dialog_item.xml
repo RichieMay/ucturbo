@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/select_dialog_select_checkbox" android:visibility="gone" android:layout_width="@dimen/select_setting_dialog_blue_dot_width" android:layout_height="@dimen/select_setting_dialog_blue_dot_width" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/select_dialog_item_icon" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="center" />
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/common_dialog_text_size" android:layout_gravity="center_vertical" android:id="@id/select_dialog_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

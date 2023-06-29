@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_upgrade" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress" android:layout_width="@dimen/upgrade_waiting_layout_progress_size" android:layout_height="@dimen/upgrade_waiting_layout_progress_size" android:layout_marginLeft="@dimen/upgrade_waiting_layout_margin" style="@android:style/Widget.Holo.Light.ProgressBar.Large" />
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/upgrade_waiting_layout_text_size" android:layout_gravity="center_vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upgrade_waiting_layout_margin" android:layout_marginRight="@dimen/upgrade_waiting_layout_margin" />
+    </LinearLayout>
+    <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/upgrade_waiting_layout_text_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/content_new" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upgrade_waiting_layout_margin" android:layout_marginRight="@dimen/upgrade_waiting_layout_margin" />
+</FrameLayout>

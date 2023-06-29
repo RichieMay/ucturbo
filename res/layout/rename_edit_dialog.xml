@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/download_rename_dialog_margin" android:layout_marginRight="@dimen/download_rename_dialog_margin">
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_rename_dialog_text_size" android:layout_gravity="center_horizontal" android:id="@id/tv_rename_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_rename_dialog_margin" />
+        <com.ucturbo.ui.widget.auto.theme.ATTextView android:textSize="@dimen/download_rename_dialog_small_text_size" android:layout_gravity="center_horizontal" android:id="@id/tv_warn_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_rename_dialog_margin" />
+        <com.ucweb.materialedittext.MaterialEditText android:textSize="@dimen/download_rename_dialog_text_size" android:layout_gravity="center_horizontal" android:id="@id/et_rename" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bookmark_revise_content_margin_8dp" android:layout_marginTop="@dimen/download_rename_dialog_margin_top" android:layout_marginRight="@dimen/bookmark_revise_content_margin_8dp" app:met_clearButton="true" app:met_floatingLabel="highlight" app:met_singleLineEllipsis="true" />
+    </LinearLayout>
+</FrameLayout>

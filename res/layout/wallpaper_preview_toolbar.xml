@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/quark_lab_wallpaper_preview_toolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center|left" android:orientation="vertical" android:id="@id/wallpaper_preview_logo_btn" android:layout_width="55.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip">
+        <View android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="Show LOGO" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/wallpaper_preview_color_btn" android:layout_width="55.0dip" android:layout_height="wrap_content">
+        <View android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="Show LOGO" />
+    </LinearLayout>
+    <com.ucturbo.ui.cardgallery.SpeedRecyclerView android:layout_gravity="center" android:id="@id/wallpaper_preview_footer_card_viewer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/wallpaper_preview_confim_btn" android:layout_width="55.0dip" android:layout_height="wrap_content" android:layout_marginRight="30.0dip">
+        <View android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="Show LOGO" />
+    </LinearLayout>
+</FrameLayout>

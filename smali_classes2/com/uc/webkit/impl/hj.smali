@@ -1,0 +1,36 @@
+.class final Lcom/uc/webkit/impl/hj;
+.super Ljava/lang/Object;
+.source "ProGuard"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic a:Lcom/uc/webkit/impl/WebViewChromiumFactoryProvider$a;
+
+
+# direct methods
+.method constructor <init>(Lcom/uc/webkit/impl/WebViewChromiumFactoryProvider$a;)V
+    .locals 0
+
+    .line 199
+    iput-object p1, p0, Lcom/uc/webkit/impl/hj;->a:Lcom/uc/webkit/impl/WebViewChromiumFactoryProvider$a;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 202
+    iget-object v0, p0, Lcom/uc/webkit/impl/hj;->a:Lcom/uc/webkit/impl/WebViewChromiumFactoryProvider$a;
+
+    invoke-virtual {v0}, Lcom/uc/webkit/impl/WebViewChromiumFactoryProvider$a;->a()V
+
+    return-void
+.end method

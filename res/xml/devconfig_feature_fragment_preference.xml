@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/devconfig_restart">
+        <extra android:name="name" android:value="restart" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="@string/devconfig_common">
+        <PreferenceScreen android:title="@string/devconfig_switch_in_env">
+            <extra android:name="name" android:value="us_env_release_india" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/devconfig_switch_id_env">
+            <extra android:name="name" android:value="us_env_release_indonesia" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/devconfig_configs">
+        <PreferenceScreen android:title="@string/devconfig_setting_flags">
+            <extra android:name="name" android:value="setting_flags" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/devconfig_cd_params">
+            <extra android:name="name" android:value="cd_params" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/devconfig_us_data">
+            <extra android:name="name" android:value="us_data" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/devconfig_file_and_resource">
+        <PreferenceScreen android:title="@string/devconfig_clear_data_and_install_new_uc">
+            <extra android:name="type" android:value="TYPE_CUSTOM_WINDOW" />
+            <extra android:name="name" android:value="clear_data_and_install_new_uc" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/devconfig_query_data">
+        <PreferenceScreen android:title="@string/devconfig_query_utdid">
+            <extra android:name="name" android:value="query_utdid" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/devconfig_query_dn">
+            <extra android:name="name" android:value="query_dn" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/devconfig_query_gaid">
+            <extra android:name="name" android:value="query_gaid" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/devconfig_switch_country">
+        <PreferenceScreen android:title="@string/devconfig_us_env_release">
+            <PreferenceScreen android:title="@string/devconfig_us_env_release_genglish">
+                <extra android:name="name" android:value="us_env_release_genglish" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/devconfig_us_env_release_india">
+                <extra android:name="name" android:value="us_env_release_india" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/devconfig_us_env_release_indonesia">
+                <extra android:name="name" android:value="us_env_release_indonesia" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/devconfig_us_env_release_pakistan">
+                <extra android:name="name" android:value="us_env_release_pakistan" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/devconfig_us_env_test">
+            <PreferenceScreen android:title="@string/devconfig_us_env_test_genglish">
+                <extra android:name="name" android:value="us_env_test_genglish" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/devconfig_us_env_test_india">
+                <extra android:name="name" android:value="us_env_test_india" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/devconfig_us_env_test_indonesia">
+                <extra android:name="name" android:value="us_env_test_indonesia" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/devconfig_us_env_test_pakistan">
+                <extra android:name="name" android:value="us_env_test_pakistan" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/devconfig_us_env_test_bengal">
+                <extra android:name="name" android:value="us_env_test_bengal" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/devconfig_setting_switch">
+        <CheckBoxPreference android:title="@string/devconfig_enable_devconfig_sp" android:key="enable_devconfig_sp" android:summary="@string/devconfig_enable_devconfig_sp_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html style="font-size: 500px;">
+<head>
+<meta http-equiv="content-type"  content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="wap-font-scale" content="no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>Krauq实验室使用须知</title>
+<style type="text/css">
+html, body, span, div, p, a, table, tbody, td, h1, h2, h3, img, form, strong, b, i, dl, dt, dd, ol, ul, li, dl, dd, dt {padding:0; margin:0;list-style: none;}
+
+body {
+	line-height: .036rem;
+	font-family:'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',arial;
+	color:#222;
+	font-size: 14px;
+	background:#fff;
+}
+a, a:link {color:#222; text-decoration:none;}
+a:active, a:visited {color:#222;}
+
+.wrap{
+	margin: 0.01rem .018rem .02rem;
+}
+.wrap p{
+	margin-bottom: .032rem;
+    margin-left: .025rem;
+    margin-right: .025rem;
+	font-size: .024rem;
+}
+.wrap h2{
+    margin-left: .025rem;
+    margin-right: .025rem;
+    margin-bottom: .032rem;
+	font-size: .024rem;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<p>欢迎你使用Krauq实验室！</p>
+
+<h2>为使用Krauq实验室(以下简称“本产品”)，你应当阅读并遵守本补充协议。请你务必审慎阅读、充分理解各条款内容，除非你已阅读并接受所有条款，否则请勿进入或使用Krauq实验室。</h2>
+
+<h2>进入或使用本产品，你知悉并同意：</h2>
+
+
+
+<h2>1. 通过使用本产品，你可提前体验夸克浏览器软件正在测试的实验性功能；使用本产品可能存在一定风险，包括但不限于因技术缺陷和瑕疵可能直接或间接影响你对夸克软件及服务的正常使用、可能导致你终端设备或原有夸克软件客户端的部分或全部数据丢失并无法找回、使用体验发生差异以及夸克软件中止/终止提供服务等。 </h2>
+
+<p>2. 在使用或开启本产品内实验性功能之前，请做好你终端设备及原有夸克软件客户端的数据备份。</p>
+
+<p>3. 在使用或开启本产品内实验性功能期间，你可体验夸克实验性功能及相应服务。夸克并不承诺本产品内实验性功能及服务的全部或部分必然会应用于正式版软件中，也不对两者之间的差异以及差异所导致的后果承担任何责任，如：本产品内部分实验性功能下线或者未出现在正式版夸克而导致该部分功能不可用或数据丢失。</p>
+
+<h2>4. 夸克团队欢迎并感谢你及其他使用本产品的用户进行反馈，夸克可自行对反馈内容进行评估，决定对本产品内实验性功能及服务进行修改和改进，并向你提供升级、修订后的功能及服务，但夸克并无义务进行前述操作。本产品内的部分功能因需将默认由系统自动设置为开启或关闭，你可以在相应界面自行关闭或启用。</h2>
+
+<p>5. 夸克有权自行确定、更改、调整可以使用本产品的用户名单和范围，有权随时中止、终止向你提供本产品。在停止提供本产品后，你仍然可以使用已经发布的正式版夸克的已有功能。</p>
+
+<h2>6. 夸克将按照行业标准合理审慎地采取必要技术措施保护你的终端设备信息和数据安全，但是你承认和同意夸克并不能就此提供完全保证。你亦同意，在任何情况下夸克不对你因使用本产品所造成的数据丢失、终端设备损坏、直接或间接的经济损失以及其他损失承担任何责任。</h2>
+
+
+<h2 align="right">夸克团队     </h2>
+
+</div>
+<script type="text/javascript">
+(function fitScreen(){
+	var lastWindowWidth = window.innerWidth,
+        converFactor =640 / 1000;
+
+    document.querySelector('html').style.fontSize = lastWindowWidth/ converFactor + 'px';
+})();	
+</script>
+</body>
+</html>
