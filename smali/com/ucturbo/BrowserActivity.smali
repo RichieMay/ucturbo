@@ -127,12 +127,7 @@
 
     .line 363
     :cond_0
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-
-    move-result-object v0
-
-    .line 364
-    invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+    invoke-static {}, Lcom/ucturbo/a/b;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -165,13 +160,9 @@
     if-lez v1, :cond_2
 
     .line 368
-    new-instance v1, Ljava/util/Locale;
+    invoke-static {v0}, Lcom/ucturbo/a/b;->c(Ljava/lang/String;)Ljava/util/Locale;
 
-    invoke-static {v0}, Lcom/ucturbo/a/b;->c(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-direct {v1, v0, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    move-result-object v1
 
     .line 369
     invoke-static {p1, v1}, Lcom/ucturbo/a/a;->a(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
@@ -220,7 +211,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 37632
+    .line 37638
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v0
@@ -230,7 +221,7 @@
     .line 38031
     sget-object v0, Lcom/ucturbo/ui/contextmenu/c$a;->a:Lcom/ucturbo/ui/contextmenu/c;
 
-    .line 37633
+    .line 37639
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -248,7 +239,7 @@
     .line 38037
     sget-object v0, Lcom/ucturbo/ui/littletoolscontextmenu/d$a;->a:Lcom/ucturbo/ui/littletoolscontextmenu/d;
 
-    .line 37634
+    .line 37640
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v1
@@ -2118,10 +2109,10 @@
 
     if-eqz v0, :cond_f
 
-    .line 27326
+    .line 27332
     invoke-virtual {v0, p1}, Lcom/ucturbo/b/c;->a(Landroid/content/Intent;)V
 
-    .line 27330
+    .line 27336
     sget-boolean v1, Lcom/ucturbo/n;->f:Z
 
     if-nez v1, :cond_0
@@ -2132,13 +2123,13 @@
 
     if-eqz v1, :cond_f
 
-    .line 27331
+    .line 27337
     :cond_0
     iget-object v1, v0, Lcom/ucturbo/b/c;->f:Lcom/ucturbo/base/b/a;
 
     if-nez v1, :cond_1
 
-    .line 27332
+    .line 27338
     new-instance v1, Lcom/ucturbo/base/b/a;
 
     invoke-direct {v1}, Lcom/ucturbo/base/b/a;-><init>()V
@@ -2478,12 +2469,12 @@
 
     if-eqz v0, :cond_2
 
-    .line 38361
+    .line 38367
     iget-boolean v1, v0, Lcom/ucturbo/b/c;->e:Z
 
     if-eqz v1, :cond_2
 
-    .line 38362
+    .line 38368
     sget-object v1, Lcom/ucturbo/base/f/j;->a:Lcom/ucturbo/base/f/b;
 
     const/4 v2, 0x0
@@ -2497,17 +2488,17 @@
 
     const/4 v1, 0x3
 
-    .line 38364
+    .line 38370
     invoke-virtual {v0, v1}, Lcom/ucturbo/b/c;->a(I)V
 
-    .line 38365
+    .line 38371
     iget-object v1, v0, Lcom/ucturbo/b/c;->b:Lcom/ucturbo/ui/b/a/b;
 
     sget-object v3, Lcom/ucturbo/ui/b/a/b$a;->b:Lcom/ucturbo/ui/b/a/b$a;
 
     invoke-virtual {v1, v3}, Lcom/ucturbo/ui/b/a/b;->a(Lcom/ucturbo/ui/b/a/b$a;)V
 
-    .line 38366
+    .line 38372
     invoke-virtual {v0}, Lcom/ucturbo/b/c;->c()Z
 
     .line 40019
@@ -2581,7 +2572,7 @@
     :try_start_0
     sget-object v0, Lcom/ucweb/a/a/a;->b:Landroid/content/Context;
 
-    .line 38374
+    .line 38380
     check-cast v0, Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
@@ -2590,7 +2581,7 @@
 
     const/16 v1, 0x2000
 
-    .line 38375
+    .line 38381
     invoke-virtual {v0, v1, v1}, Landroid/view/Window;->setFlags(II)V
 
     .line 45031
@@ -2598,7 +2589,7 @@
 
     const-string v2, "window"
 
-    .line 38376
+    .line 38382
     invoke-virtual {v1, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
@@ -2607,7 +2598,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 38378
+    .line 38384
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v2
@@ -3026,12 +3017,12 @@
 
     if-eqz v0, :cond_3
 
-    .line 47435
+    .line 47441
     iget-boolean v1, v0, Lcom/ucturbo/b/c;->e:Z
 
     if-eqz v1, :cond_3
 
-    .line 47436
+    .line 47442
     sget-object v1, Lcom/ucturbo/base/f/j;->a:Lcom/ucturbo/base/f/b;
 
     const/4 v2, 0x0
@@ -3045,10 +3036,10 @@
 
     const/4 v1, 0x4
 
-    .line 47438
+    .line 47444
     invoke-virtual {v0, v1}, Lcom/ucturbo/b/c;->a(I)V
 
-    .line 47439
+    .line 47445
     iget-object v0, v0, Lcom/ucturbo/b/c;->b:Lcom/ucturbo/ui/b/a/b;
 
     sget-object v1, Lcom/ucturbo/ui/b/a/b$a;->c:Lcom/ucturbo/ui/b/a/b$a;
@@ -3184,7 +3175,7 @@
     .line 50143
     invoke-static {v0, v2, v1}, Lcom/uc/base/wa/c;->a(II[Ljava/lang/Object;)Z
 
-    .line 47442
+    .line 47448
     invoke-static {}, Lcom/ucturbo/business/f/f/a;->a()Lcom/ucturbo/business/f/f/a;
 
     :cond_3
@@ -3202,12 +3193,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 45490
+    .line 45496
     iget-boolean v0, v0, Lcom/ucturbo/b/c;->e:Z
 
     if-eqz v0, :cond_0
 
-    .line 45491
+    .line 45497
     invoke-static {}, Lcom/ucweb/a/a/f/e;->a()Lcom/ucweb/a/a/f/e;
 
     move-result-object v0

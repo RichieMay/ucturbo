@@ -849,11 +849,7 @@
 
     .line 232
     :cond_7
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+    invoke-static {}, Lcom/ucturbo/a/b;->c()Ljava/lang/String;
 
     move-result-object p1
 

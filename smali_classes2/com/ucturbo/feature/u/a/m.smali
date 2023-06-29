@@ -120,11 +120,7 @@
 
     .line 1077
     :cond_0
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+    invoke-static {}, Lcom/ucturbo/a/b;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -759,11 +755,7 @@
 
     .line 504
     :cond_d
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+    invoke-static {}, Lcom/ucturbo/a/b;->c()Ljava/lang/String;
 
     move-result-object p1
 

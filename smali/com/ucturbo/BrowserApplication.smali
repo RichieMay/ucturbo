@@ -471,11 +471,7 @@
 
     .line 110
     :cond_0
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+    invoke-static {}, Lcom/ucturbo/a/b;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -506,13 +502,9 @@
     if-lez v1, :cond_2
 
     .line 114
-    new-instance v1, Ljava/util/Locale;
+    invoke-static {v0}, Lcom/ucturbo/a/b;->c(Ljava/lang/String;)Ljava/util/Locale;
 
-    invoke-static {v0}, Lcom/ucturbo/a/b;->c(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-direct {v1, v0, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    move-result-object v1
 
     .line 115
     invoke-static {p1, v1}, Lcom/ucturbo/a/a;->a(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;

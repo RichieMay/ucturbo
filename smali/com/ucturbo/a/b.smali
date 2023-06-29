@@ -8,14 +8,12 @@
 
 .field private static final b:[Ljava/lang/String;
 
-.field private static final c:[Ljava/lang/String;
-
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 13
+    .locals 14
 
-    const/16 v0, 0xa
+    const/16 v0, 0xb
 
     new-array v1, v0, [Ljava/lang/String;
 
@@ -79,6 +77,12 @@
 
     aput-object v2, v1, v12
 
+    const-string v2, "\u7b80\u4f53\u4e2d\u6587"
+
+    const/16 v13, 0xa
+
+    aput-object v2, v1, v13
+
     .line 73
     sput-object v1, Lcom/ucturbo/a/b;->a:[Ljava/lang/String;
 
@@ -88,7 +92,7 @@
 
     aput-object v2, v1, v3
 
-    const-string v2, "in"
+    const-string v2, "in-ID"
 
     aput-object v2, v1, v4
 
@@ -96,7 +100,7 @@
 
     aput-object v2, v1, v5
 
-    const-string v2, "th"
+    const-string v2, "th-TH"
 
     aput-object v2, v1, v6
 
@@ -104,11 +108,11 @@
 
     aput-object v2, v1, v7
 
-    const-string v2, "pt"
+    const-string v2, "pt-BR"
 
     aput-object v2, v1, v8
 
-    const-string v2, "es"
+    const-string v2, "es-LA"
 
     aput-object v2, v1, v9
 
@@ -116,55 +120,20 @@
 
     aput-object v2, v1, v10
 
-    const-string v2, "ja"
+    const-string v2, "ja-JP"
 
     aput-object v2, v1, v11
 
-    const-string v2, "zh"
+    const-string v2, "zh-TW"
 
     aput-object v2, v1, v12
 
+    const-string v2, "zh-CN"
+
+    aput-object v2, v1, v13
+
     .line 74
     sput-object v1, Lcom/ucturbo/a/b;->b:[Ljava/lang/String;
-
-    new-array v0, v0, [Ljava/lang/String;
-
-    const-string v1, ""
-
-    aput-object v1, v0, v3
-
-    const-string v2, "ID"
-
-    aput-object v2, v0, v4
-
-    aput-object v1, v0, v5
-
-    const-string v2, "TH"
-
-    aput-object v2, v0, v6
-
-    aput-object v1, v0, v7
-
-    const-string v2, "BR"
-
-    aput-object v2, v0, v8
-
-    const-string v2, "LA"
-
-    aput-object v2, v0, v9
-
-    aput-object v1, v0, v10
-
-    const-string v1, "JP"
-
-    aput-object v1, v0, v11
-
-    const-string v1, "TW"
-
-    aput-object v1, v0, v12
-
-    .line 75
-    sput-object v0, Lcom/ucturbo/a/b;->c:[Ljava/lang/String;
 
     return-void
 .end method
@@ -378,44 +347,65 @@
     return-object v0
 .end method
 
-.method public static c(Ljava/lang/String;)Ljava/lang/String;
-    .locals 3
+.method public static c(Ljava/lang/String;)Ljava/util/Locale;
+    .locals 4
 
-    const/4 v0, 0x0
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    .line 126
-    :goto_0
-    sget-object v1, Lcom/ucturbo/a/b;->b:[Ljava/lang/String;
+    const/16 v1, 0x15
 
-    array-length v2, v1
+    if-lt v0, v1, :cond_0
 
-    if-ge v0, v2, :cond_1
+    invoke-static {p0}, Ljava/util/Locale;->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
 
-    .line 127
-    aget-object v1, v1, v0
+    move-result-object v0
 
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    .line 128
-    sget-object p0, Lcom/ucturbo/a/b;->c:[Ljava/lang/String;
-
-    aget-object p0, p0, v0
-
-    return-object p0
+    return-object v0
 
     :cond_0
-    add-int/lit8 v0, v0, 0x1
+    if-nez p0, :cond_1
 
-    goto :goto_0
+    new-instance v0, Ljava/util/Locale;
+
+    const-string v1, "en"
+
+    invoke-direct {v0, v1}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
+
+    return-object v0
 
     :cond_1
-    const-string p0, ""
+    const-string v0, "-"
 
-    return-object p0
+    invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v0
+
+    array-length v1, v0
+
+    const/4 v2, 0x2
+
+    if-ne v1, v2, :cond_2
+
+    new-instance v1, Ljava/util/Locale;
+
+    const/4 v2, 0x0
+
+    aget-object v2, v0, v2
+
+    const/4 v3, 0x1
+
+    aget-object v3, v0, v3
+
+    invoke-direct {v1, v2, v3}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object v1
+
+    :cond_2
+    new-instance v1, Ljava/util/Locale;
+
+    invoke-direct {v1, p0}, Ljava/util/Locale;-><init>(Ljava/lang/String;)V
+
+    return-object v1
 .end method
 
 .method public static d()Ljava/lang/String;
