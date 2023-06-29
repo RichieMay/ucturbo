@@ -138,14 +138,7 @@
         <item>2020148</item>
         <item>2020149</item>
     </string-array>
-    <string-array name="hardcode_navigation_titles">
-        <item>YouTube</item>
-        <item>Facebook</item>
-        <item>Google</item>
-        <item>Instagram</item>
-        <item>Twitter</item>
-        <item>Wikipedia</item>
-    </string-array>
+    <string-array name="hardcode_navigation_titles"/>
     <string-array name="hardcode_navigation_titles_in">
         <item>YouTube</item>
         <item>News</item>
